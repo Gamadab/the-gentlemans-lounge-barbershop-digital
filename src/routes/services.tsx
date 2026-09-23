@@ -3,6 +3,7 @@ import { ArrowRight, Check } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 
 export const Route = createFileRoute("/services")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "Services & Pricing — The Gentlemen's Lounge Barbershop Tukwila" },

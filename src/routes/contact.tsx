@@ -3,6 +3,7 @@ import { MapPin, Phone, Clock, Mail, Instagram, Facebook } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 
 export const Route = createFileRoute("/contact")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "Contact — The Gentlemen's Lounge Barbershop Tukwila" },

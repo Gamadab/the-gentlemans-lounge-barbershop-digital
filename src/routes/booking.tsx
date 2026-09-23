@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Phone, ExternalLink } from "lucide-react";
 
 export const Route = createFileRoute("/booking")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "Book Online — The Gentlemen's Lounge Barbershop Tukwila" },

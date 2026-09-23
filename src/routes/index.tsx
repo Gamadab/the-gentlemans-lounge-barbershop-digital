@@ -8,6 +8,7 @@ import beardImg from "@/assets/style-beard.jpg";
 import interiorImg from "@/assets/shop-chair.jpg";
 
 export const Route = createFileRoute("/")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "The Gentlemen's Lounge Barbershop — Sharp Cuts, Clean Style in Tukwila" },

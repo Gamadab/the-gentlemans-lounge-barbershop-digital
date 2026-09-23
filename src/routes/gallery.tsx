@@ -8,6 +8,7 @@ import r5 from "@/assets/real-5.jpeg";
 import r6 from "@/assets/real-6.jpeg";
 
 export const Route = createFileRoute("/gallery")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "Gallery — The Gentlemen's Lounge Barbershop Tukwila" },
