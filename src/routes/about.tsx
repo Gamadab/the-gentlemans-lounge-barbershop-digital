@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import interiorImg from "@/assets/shop-chair.jpg";
 
 export const Route = createFileRoute("/about")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "About — The Gentlemen's Lounge Barbershop Tukwila" },
