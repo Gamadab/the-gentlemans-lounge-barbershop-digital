@@ -32,9 +32,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "The Gentlemen's Lounge Barbershop — Sharp Cuts, Clean Style in Tukwila" },
-      { name: "description", content: "The Gentlemen's Lounge Barbershop in Tukwila, WA offers expert fades, tapers, lineups and beard trims. Book online — appointments only. 708 Industry Dr." },
-      { property: "og:title", content: "The Gentlemen's Lounge Barbershop — Tukwila's Go-To Barbershop" },
+      { title: "The Gentleman's Lounge Barbershop — Sharp Cuts, Clean Style in Tukwila" },
+      { name: "description", content: "The Gentleman's Lounge Barbershop in Tukwila, WA offers expert fades, tapers, lineups and beard trims. Book online — appointments only. 708 Industry Dr." },
+      { property: "og:title", content: "The Gentleman's Lounge Barbershop — Tukwila's Go-To Barbershop" },
       { property: "og:description", content: "Sharp cuts. Clean style. Expert fades, tapers and lineups in Tukwila, WA." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

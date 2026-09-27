@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-1">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="The Gentlemen's Lounge Barbershop logo" className="h-14 w-14 object-contain" />
+            <img src={logo} alt="The Gentleman's Lounge Barbershop logo" className="h-14 w-14 object-contain" />
             <span className="font-display text-base tracking-widest font-bold leading-tight">
               THE GENTLEMEN'S<br/>LOUNGE
             </span>
@@ -76,7 +76,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5 text-xs text-muted-foreground flex flex-col sm:flex-row gap-2 justify-between">
-          <p>© {new Date().getFullYear()} The Gentlemen's Lounge Barbershop. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} The Gentleman's Lounge Barbershop. All rights reserved.</p>
           <p>Tukwila, Washington</p>
         </div>
       </div>

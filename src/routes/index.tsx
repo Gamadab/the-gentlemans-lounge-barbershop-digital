@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
   staticData: { sitemap: true },
   head: () => ({
     meta: [
-      { title: "The Gentlemen's Lounge Barbershop — Sharp Cuts, Clean Style in Tukwila" },
+      { title: "The Gentleman's Lounge Barbershop — Sharp Cuts, Clean Style in Tukwila" },
       {
         name: "description",
         content:
@@ -35,7 +35,7 @@ function HomePage() {
       <section className="relative -mt-16 md:-mt-20 h-[92vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <img
           src={heroImg}
-          alt="Sharp fade haircut at The Gentlemen's Lounge Barbershop in Tukwila"
+          alt="Sharp fade haircut at The Gentleman's Lounge Barbershop in Tukwila"
           width={1920}
           height={1280}
           className="absolute inset-0 w-full h-full object-cover"
@@ -98,9 +98,9 @@ function HomePage() {
           <div>
             <SectionHeading
               align="left"
-              eyebrow="Welcome to The Gentlemen's Lounge"
+              eyebrow="Welcome to The Gentleman's Lounge"
               title="Where Every Cut Tells a Story"
-              description="Started in a Seattle shop, now holding it down in Tukwila on Industry Dr. The Gentlemen's Lounge is where old-school craft meets modern style — and every chair is reserved for those who refuse to settle."
+              description="Started in a Seattle shop, now holding it down in Tukwila on Industry Dr. The Gentleman's Lounge is where old-school craft meets modern style — and every chair is reserved for those who refuse to settle."
             />
             <p className="mt-6 text-muted-foreground leading-relaxed">
               Reggie built his name cutting hair in Seattle before opening his own spot right outside the city. A master barber and fitness coach who trains kids, he brings discipline, precision, and personality to every visit. Step in. Sit back. Step out sharper than ever.
@@ -116,7 +116,7 @@ function HomePage() {
             <div className="absolute -inset-4 border border-gold/40" />
             <img
               src={interiorImg}
-              alt="Inside The Gentlemen's Lounge Barbershop — vintage chairs and dark wood interior"
+              alt="Inside The Gentleman's Lounge Barbershop — vintage chairs and dark wood interior"
               width={1600}
               height={1100}
               loading="lazy"
