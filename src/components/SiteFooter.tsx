@@ -10,7 +10,7 @@ export function SiteFooter() {
           <div className="flex items-center gap-3">
             <img src={logo} alt="The Gentleman's Lounge Barbershop logo" className="h-14 w-14 object-contain" />
             <span className="font-display text-base tracking-widest font-bold leading-tight">
-              THE GENTLEMEN'S<br/>LOUNGE
+              THE GENTLEMAN'S<br/>LOUNGE
             </span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
