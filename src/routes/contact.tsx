@@ -56,8 +56,8 @@ function ContactPage() {
               </InfoRow>
 
               <InfoRow icon={Mail} title="Email">
-                <a href="mailto:hello@thegentlemenslounge.com" className="hover:text-gold transition-colors">
-                  hello@thegentlemenslounge.com
+                <a href="mailto:reggie.ngst@gmail.com" className="hover:text-gold transition-colors">
+                  reggie.ngst@gmail.com
                 </a>
               </InfoRow>
 
