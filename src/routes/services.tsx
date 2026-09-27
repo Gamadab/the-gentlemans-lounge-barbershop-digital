@@ -6,9 +6,9 @@ export const Route = createFileRoute("/services")({
   staticData: { sitemap: true },
   head: () => ({
     meta: [
-      { title: "Services & Pricing — The Gentlemen's Lounge Barbershop Tukwila" },
-      { name: "description", content: "Haircuts, fades, beard trims, lineups, kids cuts and the full The Gentlemen's Lounge experience. View our menu and pricing." },
-      { property: "og:title", content: "Services & Pricing — The Gentlemen's Lounge Barbershop" },
+      { title: "Services & Pricing — The Gentleman's Lounge Barbershop Tukwila" },
+      { name: "description", content: "Haircuts, fades, beard trims, lineups, kids cuts and the full The Gentleman's Lounge experience. View our menu and pricing." },
+      { property: "og:title", content: "Services & Pricing — The Gentleman's Lounge Barbershop" },
       { property: "og:description", content: "Haircuts, fades, beard trims, lineups and more in Tukwila." },
     ],
   }),

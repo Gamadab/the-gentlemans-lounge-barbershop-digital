@@ -6,9 +6,9 @@ export const Route = createFileRoute("/contact")({
   staticData: { sitemap: true },
   head: () => ({
     meta: [
-      { title: "Contact — The Gentlemen's Lounge Barbershop Tukwila" },
-      { name: "description", content: "Visit The Gentlemen's Lounge Barbershop at 708 Industry Dr, Tukwila. Call 206-910-2036. Open Tue–Sat, closed Sun & Mon." },
-      { property: "og:title", content: "Contact The Gentlemen's Lounge Barbershop" },
+      { title: "Contact — The Gentleman's Lounge Barbershop Tukwila" },
+      { name: "description", content: "Visit The Gentleman's Lounge Barbershop at 708 Industry Dr, Tukwila. Call 206-910-2036. Open Tue–Sat, closed Sun & Mon." },
+      { property: "og:title", content: "Contact The Gentleman's Lounge Barbershop" },
       { property: "og:description", content: "708 Industry Dr, Tukwila, WA. Call 206-910-2036." },
     ],
   }),
@@ -35,7 +35,7 @@ function ContactPage() {
       <section className="py-20 md:py-24">
         <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2 space-y-6">
-            <SectionHeading align="left" eyebrow="Get In Touch" title="The Gentlemen's Lounge Barbershop" />
+            <SectionHeading align="left" eyebrow="Get In Touch" title="The Gentleman's Lounge Barbershop" />
 
             <div className="space-y-5 mt-6">
               <InfoRow icon={MapPin} title="Address">
@@ -90,7 +90,7 @@ function ContactPage() {
           <div className="lg:col-span-3">
             <div className="relative w-full h-[500px] lg:h-full min-h-[500px] border border-gold/40 overflow-hidden">
               <iframe
-                title="The Gentlemen's Lounge Barbershop location map"
+                title="The Gentleman's Lounge Barbershop location map"
                 src={`https://www.google.com/maps?q=${mapsQuery}&output=embed`}
                 width="100%"
                 height="100%"

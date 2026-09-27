@@ -7,9 +7,9 @@ export const Route = createFileRoute("/about")({
   staticData: { sitemap: true },
   head: () => ({
     meta: [
-      { title: "About — The Gentlemen's Lounge Barbershop Tukwila" },
-      { name: "description", content: "Learn the story behind The Gentlemen's Lounge Barbershop in Tukwila. Master barber, precision cuts, and a welcoming experience for every client." },
-      { property: "og:title", content: "About The Gentlemen's Lounge Barbershop" },
+      { title: "About — The Gentleman's Lounge Barbershop Tukwila" },
+      { name: "description", content: "Learn the story behind The Gentleman's Lounge Barbershop in Tukwila. Master barber, precision cuts, and a welcoming experience for every client." },
+      { property: "og:title", content: "About The Gentleman's Lounge Barbershop" },
       { property: "og:description", content: "Master barber, precision cuts and a welcoming experience in Tukwila." },
     ],
   }),
@@ -18,7 +18,7 @@ export const Route = createFileRoute("/about")({
 
 const values = [
   { icon: Scissors, title: "Precision", desc: "Every line. Every fade. Every blend. Done with the eye of a craftsman." },
-  { icon: Users, title: "Hospitality", desc: "At The Gentlemen's Lounge, you're welcome — and we mean it. The chair is yours." },
+  { icon: Users, title: "Hospitality", desc: "At The Gentleman's Lounge, you're welcome — and we mean it. The chair is yours." },
   { icon: Award, title: "Mastery", desc: "Years of experience behind every clipper, razor and pair of shears." },
   { icon: Sparkles, title: "Style", desc: "Modern, classic or signature — we shape the look that fits you." },
 ];
@@ -32,7 +32,7 @@ function AboutPage() {
           <h1 className="text-4xl sm:text-6xl font-bold">More Than A Haircut</h1>
           <div className="gold-divider mx-auto mt-6" />
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            The Gentlemen's Lounge Barbershop was built on a simple idea: every client deserves a cut that feels as good as it looks.
+            The Gentleman's Lounge Barbershop was built on a simple idea: every client deserves a cut that feels as good as it looks.
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ function AboutPage() {
             <div className="absolute -inset-4 border border-gold/40" />
             <img
               src={interiorImg}
-              alt="The Gentlemen's Lounge Barbershop interior with vintage chairs"
+              alt="The Gentleman's Lounge Barbershop interior with vintage chairs"
               width={1600}
               height={1100}
               loading="lazy"
@@ -58,7 +58,7 @@ function AboutPage() {
             />
             <div className="mt-6 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                Reggie started his journey cutting hair in a shop right in Seattle, building his craft one fade at a time. As his skills and clientele grew, he found his own spot just outside the city in Tukwila — and The Gentlemen&apos;s Lounge Barbershop was born.
+                Reggie started his journey cutting hair in a shop right in Seattle, building his craft one fade at a time. As his skills and clientele grew, he found his own spot just outside the city in Tukwila — and The Gentleman&apos;s Lounge Barbershop was born.
               </p>
               <p>
                 Beyond the barber chair, Reggie is a fitness coach who trains kids, bringing the same discipline and energy from the gym to every cut. Old-school technique meets modern style — straight razors, hot towels, crisp fades, and sharp lineups.
@@ -75,7 +75,7 @@ function AboutPage() {
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading
             eyebrow="What We Stand For"
-            title="The The Gentlemen's Lounge Standard"
+            title="The The Gentleman's Lounge Standard"
           />
           <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map(({ icon: Icon, title, desc }) => (
@@ -93,7 +93,7 @@ function AboutPage() {
       <section className="py-20 text-center">
         <div className="mx-auto max-w-3xl px-6">
           <h2 className="text-3xl sm:text-5xl font-bold">Come Sit In Our Chair</h2>
-          <p className="mt-5 text-muted-foreground">Experience the The Gentlemen's Lounge difference for yourself.</p>
+          <p className="mt-5 text-muted-foreground">Experience the The Gentleman's Lounge difference for yourself.</p>
           <a
             href="https://book.thecut.co/reggieW"
             target="_blank"

@@ -5,9 +5,9 @@ export const Route = createFileRoute("/booking")({
   staticData: { sitemap: true },
   head: () => ({
     meta: [
-      { title: "Book Online — The Gentlemen's Lounge Barbershop Tukwila" },
-      { name: "description", content: "Book your appointment at The Gentlemen's Lounge Barbershop in Tukwila. Appointments only — no walk-ins." },
-      { property: "og:title", content: "Book Online — The Gentlemen's Lounge Barbershop" },
+      { title: "Book Online — The Gentleman's Lounge Barbershop Tukwila" },
+      { name: "description", content: "Book your appointment at The Gentleman's Lounge Barbershop in Tukwila. Appointments only — no walk-ins." },
+      { property: "og:title", content: "Book Online — The Gentleman's Lounge Barbershop" },
       { property: "og:description", content: "Reserve your chair at Tukwila's go-to barbershop." },
     ],
   }),

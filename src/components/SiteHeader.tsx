@@ -37,7 +37,7 @@ export function SiteHeader() {
         <Link to="/" className="flex items-center gap-3 group" onClick={() => setOpen(false)}>
           <img
             src={logo}
-            alt="The Gentlemen's Lounge Barbershop logo"
+            alt="The Gentleman's Lounge Barbershop logo"
             className="h-12 w-12 md:h-14 md:w-14 object-contain transition-transform group-hover:rotate-6"
           />
           <span className="font-display text-sm md:text-base tracking-widest font-bold leading-tight hidden sm:block">

@@ -11,9 +11,9 @@ export const Route = createFileRoute("/gallery")({
   staticData: { sitemap: true },
   head: () => ({
     meta: [
-      { title: "Gallery — The Gentlemen's Lounge Barbershop Tukwila" },
-      { name: "description", content: "Browse fresh fades, tapers, lineups and beard work from The Gentlemen's Lounge Barbershop in Tukwila." },
-      { property: "og:title", content: "Gallery — The Gentlemen's Lounge Barbershop" },
+      { title: "Gallery — The Gentleman's Lounge Barbershop Tukwila" },
+      { name: "description", content: "Browse fresh fades, tapers, lineups and beard work from The Gentleman's Lounge Barbershop in Tukwila." },
+      { property: "og:title", content: "Gallery — The Gentleman's Lounge Barbershop" },
       { property: "og:description", content: "Fresh fades, tapers and lineups from our Tukwila barbershop." },
     ],
   }),
@@ -38,7 +38,7 @@ function GalleryPage() {
           <h1 className="text-4xl sm:text-6xl font-bold">Gallery</h1>
           <div className="gold-divider mx-auto mt-6" />
           <p className="mt-6 text-lg text-muted-foreground">
-            Sharp fades. Clean lineups. Real results from the The Gentlemen's Lounge chair.
+            Sharp fades. Clean lineups. Real results from the The Gentleman's Lounge chair.
           </p>
         </div>
       </section>
