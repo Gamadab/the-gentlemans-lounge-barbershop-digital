@@ -58,7 +58,7 @@ function AboutPage() {
             />
             <div className="mt-6 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                Reggie started his journey cutting hair in a shop right in Seattle, building his craft one fade at a time. As his skills and clientele grew, he found his own spot just outside the city in Tukwila — and The Gentlemen&apos;s Lounge Barbershop was born.
+                Reggie started his journey cutting hair in a shop right in Seattle, building his craft one fade at a time. As his skills and clientele grew, he found his own spot just outside the city in Tukwila — and The Gentleman&apos;s Lounge Barbershop was born.
               </p>
               <p>
                 Beyond the barber chair, Reggie is a fitness coach who trains kids, bringing the same discipline and energy from the gym to every cut. Old-school technique meets modern style — straight razors, hot towels, crisp fades, and sharp lineups.
